@@ -15,10 +15,7 @@ st.info("""
 
 
 def main():
-    if os.getenv("OPENAI_API_KEY"):
-        openai_api_key = os.getenv("OPENAI_API_KEY")
-    else:
-        openai_api_key = st.text_input("Enter your OpenAI API Key", type="password")
+    openai_api_key = st.text_input("Enter your OpenAI API Key", type="password")
 
     example_generation_prompt = """
                Create a table with 10 names for startups that combine 'AI and Market Research' and return as a table with 2 columns. The table 
