@@ -1,0 +1,21 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+.pipenv/
+
+# IDE-specific files
+.idea/
+.vscode/
+
+# Miscellaneous
+.env/
+*.log
+*.tmp
+*.swp
+.DS_Store
